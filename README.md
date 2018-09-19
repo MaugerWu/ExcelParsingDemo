@@ -8,6 +8,24 @@ POI简介：Jakarta POI 是一套用于访问微软格式文档的Java API。Jak
 
 API文档http://poi.apache.org/apidocs/index.html
 
+HSSF（用于操作Excel的组件）提供给用户使用的对象在rg.apache.poi.hssf.usermodel包中,主要部分包括Excel对象，样式和格式，有以下几种常用的对象：
+
+常用组件：
+
+HSSFWorkbook     excel的文档对象
+
+HSSFSheet            excel的表单
+
+HSSFRow               excel的行
+
+HSSFCell                excel的格子单元
+
+HSSFFont               excel字体
+
+样式：
+
+HSSFCellStyle         cell样式
+
 ## 所需 jar 包
 
 1. poi-3.9.jar
