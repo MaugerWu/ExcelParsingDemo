@@ -12,19 +12,15 @@ HSSF（用于操作 Excel 的组件）提供给用户使用的对象在`rg.apach
 
 常用组件：
 
-HSSFWorkbook         excel 的文档对象
+HSSFWorkbook          excel 的文档对象
 
-HSSFSheet            excel 的表单
+HSSFSheet             excel 的表单
 
-HSSFRow              excel 的行
+HSSFRow               excel 的行
 
-HSSFCell             excel 的格子单元
+HSSFCell              excel 的格子单元
 
-HSSFFont             excel 字体
-
-样式：
-
-HSSFCellStyle        cell 样式
+HSSFFont              excel 字体
 
 ## 所需 jar 包
 
