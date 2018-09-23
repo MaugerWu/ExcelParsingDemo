@@ -12,7 +12,7 @@ HSSF（用于操作 Excel 的组件）提供给用户使用的对象在`rg.apach
 
 常用组件：
 
-HSSFWorkbook          excel 的文档对象
+HSSFWorkbook          excel 的 文档对象
 
 HSSFSheet             excel 的表单
 
