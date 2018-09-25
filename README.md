@@ -2,7 +2,7 @@
 
 ## POI 3.9 解析 Excel（.xsl & .xslx）
 
-POI 简介：Jakarta POI 是一套用于访问微软格式文档的 Java API。Jakarta POI 有很多组件组成，其中有用于操作 Excel 格式文件的 HSSF 和用于操作 Word 的 HWPF，在各种组件中目前只有用于操作 Excel 的 HSSF 相对成熟。
+POI 简介：[POI](http://poi.apache.org/) 是一套用于访问微软格式文档的 Java API。Jakarta POI 有很多组件组成，其中有用于操作 Excel 格式文件的 HSSF 和用于操作 Word 的 HWPF，在各种组件中目前只有用于操作 Excel 的 HSSF 相对成熟。
 
 官方主页: http://poi.apache.org/index.html，
 
