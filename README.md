@@ -33,15 +33,15 @@ HSSFFont              excel 字体
 
 ## HSSFWorkbook、XSSFWorkbook 与 SXSSFWorkbook 的区别
 
-#### HSSFWorkbook
+### HSSFWorkbook
 
 HSSFWorkbook 针对的是 Excel 2003 的版本，扩展名为`.xls`，导出的行数 至多为 65535 行，发现只要是 Excel 文件大于 2M 左右，便会出现 OOM（Out Of Memory）；
 
-#### XSSFWorkbook
+### XSSFWorkbook
 
 这种形式的出现是由于第一种 HSSFWorkbook 的局限性而产生的，因为其所导出的行数比较少，所以 XSSFWookbook 应运而生 其 对应的是Excel 2007+ （1048576行 16384列），扩展名为`.xlsx`，最多可以导出 104 万行，不过这样就伴随着一个问题 —— OOM，原因是你所创建的`XSSFWorkbook Sheet Row Cell`等，此时是存在 内存的，并没有持久化，那么随着数据量增大，内存的需求量也就增大，那么很大可能就是要 OOM 了；
 
-#### SXSSFWorkbook　　poi.jar 3.8+
+### SXSSFWorkbook　　poi.jar 3.8+
 
 此种的情况就是设置最大内存条数，比如设置最大内存量为 5000 rows -- new SXSSFWookbook(5000); 当行数达到 5000 时，把内存持久化写到文件中，以此逐步写入，避免 OOM；
 
