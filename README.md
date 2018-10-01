@@ -30,6 +30,7 @@ HSSFFont              excel 字体
 4. xmlbeans-2.6.0.jar
 5. commons-collections4-4.0.jar
 6. dom4j-1.6.1.jar
+7. log4j-1.2.17.jar
 
 ## HSSFWorkbook、XSSFWorkbook 与 SXSSFWorkbook 的区别
 
