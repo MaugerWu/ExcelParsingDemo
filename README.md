@@ -24,7 +24,7 @@ HSSFFont              excel 字体
 
 ## 所需 jar 包
 
-1. poi-3.9.jar
+1. poi-3.8.jar
 2. poi-ooxml-3.8.jar
 3. poi-ooxml-schemas-3.8.jar
 4. xmlbeans-2.6.0.jar
