@@ -4,9 +4,9 @@
 
 POI 简介：[POI](http://poi.apache.org/) 是一套用于访问微软格式文档的 Java API。Jakarta POI 有很多组件组成，其中有用于操作 Excel 格式文件的 HSSF 和用于操作 Word 的 HWPF，在各种组件中目前只有用于操作 Excel 的 HSSF 相对成熟。
 
-官方主页: http://poi.apache.org/index.html，
+官方主页： http://poi.apache.org/index.html，
 
-API 文档: http://poi.apache.org/apidocs/index.html
+API 文档： http://poi.apache.org/apidocs/index.html
 
 HSSF（用于操作 Excel 的组件）提供给用户使用的对象在`rg.apache.poi.hssf.usermodel`包中,主要部分包括 Excel 对象、样式和格式，有以下几种常用的对象：
 
